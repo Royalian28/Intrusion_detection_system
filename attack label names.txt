@@ -1,0 +1,112 @@
+Normal: Indicates normal network traffic or behavior.
+Neptune: Refers to a type of Denial-of-Service (DoS) attack where the attacker floods the target machine with SYN packets, overwhelming its resources.
+Guess_passwd: An attack where the attacker attempts to gain unauthorized access by guessing passwords.
+Mscan: Possibly a variant of network scanning tool or activity.
+Warezmaster: May refer to a person or entity distributing pirated software or digital content.
+Apache2: Refers to an Apache web server attack or potentially a server configuration issue.
+Satan: Likely named after the network scanning tool 'SATAN', which stands for Security Administrator Tool for Analyzing Networks.
+Processtable: Possibly related to an attack targeting the system's process management.
+Smurf: A type of DoS attack that uses ICMP (Internet Control Message Protocol) echo requests to flood a victim's network.
+Back: May refer to a backdoor access or an indication of unauthorized access.
+Snmpguess: An attack where the attacker guesses SNMP (Simple Network Management Protocol) community strings to gain unauthorized access.
+Portsweep: Scanning multiple ports on a target system for vulnerabilities.
+Ipsweep: Scanning multiple IP addresses to gather information about a network.
+Pod: A DoS attack that sends a large volume of IP packets to consume network bandwidth.
+Buffer_overflow: A type of software vulnerability where an attacker can overwrite adjacent memory locations with malicious code.
+Rootkit: Malicious software designed to provide unauthorized access to a computer system.
+Teardrop: A DoS attack that sends fragmented packets to a target machine, causing it to crash or become unstable.
+Land: A type of DoS attack that sends spoofed packets with the target's IP address as both the source and destination.
+FTP_write: Unauthorized write access to an FTP (File Transfer Protocol) server.
+Worm: Self-replicating malware that spreads across networks.
+Loadmodule: Potentially related to an attack where the attacker attempts to load a malicious module into the target system.
+Perl: Refers to Perl scripting language, possibly indicating an attack using Perl scripts.
+Sqlattack: An attack targeting SQL databases, attempting to exploit vulnerabilities.
+Phf: An attack targeting the PHF CGI script vulnerability in web servers.
+Imap: May refer to an attack targeting the Internet Message Access Protocol (IMAP) for unauthorized access.
+Named: May refer to an attack targeting the DNS server software 'BIND', also known as 'named'.
+Ps: May refer to an attack targeting the process management utility 'ps'.
+Sendmail: An attack targeting the Sendmail email server software.
+Xterm: Possibly related to Xterm terminal emulation software.
+Xlock: Refers to a Unix screen locking program, possibly indicating an attack or misuse.
+Xsnoop: A tool used for monitoring X Window System traffic.
+Udpstorm: A DoS attack that floods a target network with UDP (User Datagram Protocol) packets.
+Imap: May refer to an attack targeting the IMAP protocol.
+Phf: An attack targeting the PHF CGI script vulnerability.
+Sqlattack: An attack targeting SQL databases.
+
+
+diff_srv_rate: Imagine you’re a security guard monitoring the entrances to different buildings in a complex. The diff_srv_rate would be like keeping track of how often people go to different buildings rather than always going to the same one.
+srv_serror_rate: This would be like noting how often a particular entrance door gets jammed (a “SYN” error) when people try to use it.
+dst_host_diff_srv_rate: This is like tracking how often people visit different buildings (services) from a specific building (host).
+serror_rate: This is like noting how often any door in the complex gets jammed.
+count: This is simply the total number of people you see entering all buildings.
+hot: This is like noting the number of times you see suspicious activity, like someone trying to enter a building without proper access.
+rerror_rate: This is like noting how often people are rejected entry at any door in the complex.
+dst_host_same_srv_rate: This is like tracking how often people visit the same building from a specific building.
+dst_host_srv_serror_rate: This is like noting how often a door gets jammed at a specific building when people from the same building try to use it.
+dst_host_srv_count: This is the number of people visiting the same building from a specific building.
+same_srv_rate: This is like noting how often people visit the same building, no matter where they come from.
+logged_in: This is like checking if a person has signed in at the reception or not.
+dst_host_count: This is the total number of people visiting a specific building.
+srv_rerror_rate: This is like noting how often people are rejected entry at a specific door.
+dst_host_srv_diff_host_rate: This is like tracking how often people visit different buildings from the same building.
+dst_host_serror_rate: This is like noting how often any door at a specific building gets jammed.
+dst_host_srv_rerror_rate: This is like noting how often people from the same building are rejected entry at a specific building.
+dst_host_same_src_port_rate: This is like tracking how often people use the same entrance at a specific building.
+srv_diff_host_rate: This is like noting how often people visit different buildings from the same building.
+dst_host_rerror_rate: This is like noting how often people are rejected entry at a specific building.
+srv_count: This is the number of people visiting the same building, no matter where they come from.
+
+
+diff_srv_rate: The rate of connections to different services.
+srv_serror_rate: The rate of connections that have “SYN” errors from the same service.
+dst_host_diff_srv_rate: The rate of connections to different services on the current host.
+serror_rate: The rate of connections that have “SYN” errors.
+count: The number of connections.
+hot: The number of ‘hot’ indicators or suspicious activities.
+rerror_rate: The rate of connections that have “REJ” errors.
+dst_host_same_srv_rate: The rate of connections to the same service on the current host.
+dst_host_srv_serror_rate: The rate of connections that have “SYN” errors on the current host from the same service.
+dst_host_srv_count: The number of connections to the same service on the current host.
+same_srv_rate: The rate of connections to the same service.
+logged_in: Whether the user is logged in or not.
+dst_host_count: The number of connections to the current host.
+srv_rerror_rate: The rate of connections that have “REJ” errors from the same service.
+dst_host_srv_diff_host_rate: The rate of connections to different hosts on the current host from the same service.
+dst_host_serror_rate: The rate of connections that have “SYN” errors on the current host.
+dst_host_srv_rerror_rate: The rate of connections that have “REJ” errors on the current host from the same service.
+dst_host_same_src_port_rate: The rate of connections to the same source port on the current host.
+srv_diff_host_rate: The rate of connections to different hosts from the same service.
+dst_host_rerror_rate: The rate of connections that have “REJ” errors on the current host.
+srv_count: The number of connections to the same service.
+
+diff_srv_rate:
+srv_serror_rate:
+dst_host_diff_srv_rate:
+serror_rate:
+count:
+hot:
+rerror_rate:
+dst_host_same_srv_rate:
+dst_host_srv_serror_rate:
+dst_host_srv_count:
+same_srv_rate:
+logged_in:
+dst_host_count:
+srv_rerror_rate:
+dst_host_srv_diff_host_rate:
+dst_host_serror_rate: 
+dst_host_srv_rerror_rate: 
+dst_host_same_src_port_rate: 
+srv_diff_host_rate: 
+dst_host_rerror_rate: 
+srv_count: 
+
+
+U2R (User to Root) attacks: These attacks often involve a normal user account performing actions that are typically reserved for a root user. Therefore, you might see a high hot value, indicating a number of ‘hot’ indicators or suspicious activities. Additionally, if the dataset includes features related to user privileges or system commands, those might also be relevant for detecting U2R attacks.
+R2L (Remote to Local) attacks: These attacks often involve an external machine gaining local user access. Therefore, you might see a high src_bytes or dst_bytes value, indicating a large amount of data being sent or received, as the attacker attempts to exploit vulnerabilities or send malicious payloads. Additionally, a high logged_in value might be seen, as the attacker successfully gains access.
+a DoS attack might have a high count (number of connections) and serror_rate (rate of “SYN” errors), indicating a flood of traffic causing errors. On the other hand, a Probe attack might have a high diff_srv_rate (rate of connections to different services) and dst_host_same_src_port_rate (rate of connections to the same source port on the current host), indicating a scanning of different services and ports.
+
+
+
+

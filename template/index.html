@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IDS</title>
+    <style>
+        body {
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <div style="background-color:white;padding:13px"> 
+        <h1 style="color:black;text-align:center;">Intrusion detection System</h1> 
+    </div>
+    <form action="/predict" method="post">
+        <div>
+            <label for="logged_in">Logged In:</label>
+            <input type="number" id="logged_in" name="logged_in" step="0.01">
+        </div>
+        <div>
+            <label for="srv_diff_host_rate">Srv Diff Host Rate:</label>
+            <input type="number" id="srv_diff_host_rate" name="srv_diff_host_rate" step="0.01">
+        </div>
+        <div>
+            <label for="dst_host_same_srv_rate">Dst Host Same Srv Rate:</label>
+            <input type="number" id="dst_host_same_srv_rate" name="dst_host_same_srv_rate" step="0.01">
+        </div>
+        <div>
+            <label for="dst_host_rerror_rate">Dst Host Rerror Rate:</label>
+            <input type="number" id="dst_host_rerror_rate" name="dst_host_rerror_rate" step="0.01">
+        </div>
+        <div>
+            <label for="dst_host_same_src_port_rate">Dst Host Same Src Port Rate:</label>
+            <input type="number" id="dst_host_same_src_port_rate" name="dst_host_same_src_port_rate" step="0.01">
+        </div>
+        <div>
+            <label for="diff_srv_rate">Diff Srv Rate:</label>
+            <input type="number" id="diff_srv_rate" name="diff_srv_rate" step="0.01">
+        </div>
+        <div>
+            <label for="dst_host_count">Dst Host Count:</label>
+            <input type="number" id="dst_host_count" name="dst_host_count" step="0.01">
+        </div>
+        <div>
+            <label for="dst_host_srv_diff_host_rate">Dst Host Srv Diff Host Rate:</label>
+            <input type="number" id="dst_host_srv_diff_host_rate" name="dst_host_srv_diff_host_rate" step="0.01">
+        </div>
+        <div>
+            <label for="rerror_rate">Rerror Rate:</label>
+            <input type="number" id="rerror_rate" name="rerror_rate" step="0.01">
+        </div>
+        <div>
+            <label for="srv_rerror_rate">Srv Rerror Rate:</label>
+            <input type="number" id="srv_rerror_rate" name="srv_rerror_rate" step="0.01">
+        </div>
+        <div>
+            <label for="dst_host_srv_count">Dst Host Srv Count:</label>
+            <input type="number" id="dst_host_srv_count" name="dst_host_srv_count" step="0.01">
+        </div>
+        <div>
+            <label for="dst_host_srv_rerror_rate">Dst Host Srv Rerror Rate:</label>
+            <input type="number" id="dst_host_srv_rerror_rate" name="dst_host_srv_rerror_rate" step="0.01">
+        </div>
+        <div>
+            <label for="l12">L12:</label>
+            <input type="number" id="l12" name="l12" step="0.01">
+        </div>
+        <div>
+            <input type="submit" value="Predict">
+        </div>
+    </form>
+</body>
+</html>
